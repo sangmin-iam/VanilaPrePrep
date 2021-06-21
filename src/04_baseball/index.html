@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/imgs/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Baseball Project</title>
+  </head>
+
+  <body>
+    <section>
+      <!-- <div class="image-box">
+          <img src="imgs/vanilla_coding_logo.png" />
+        </div> -->
+      <h1>Baseball</h1>
+      <!-- 야구게임 Start -->
+      <div class="baseball">
+        <div class="start-container">
+          <audio id="start-audio" src="audio/start.mp3"></audio>
+          <button id="btn-play" class="btn-primary">Play Game</button>
+        </div>
+        <div id="guess-form" class="disappear">
+          <div class="record">
+            <p id="strike-ball">Strike: 0 Ball: 0</p>
+            <p id="attemps">남은시도 횟수: 10</p>
+          </div>
+          <input id="guess-number" type="text" /><br />
+          <div id="btn-reset-guess">
+            <button id="btn-reset" class="btn-secondary">Reset</button>
+            <button id="btn-guess" class="btn-secondary">Guess</button>
+          </div>
+          <audio id="homerun-audio" src="audio/home_run.mp3"></audio>
+          <audio id="guess-audio" src="audio/bat.mp3"></audio>
+        </div>
+        <table></table>
+      </div>
+      <!-- 야구게임 End -->
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>

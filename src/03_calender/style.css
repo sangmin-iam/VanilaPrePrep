@@ -1,0 +1,31 @@
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 72px;
+}
+
+p {
+  text-align: center;
+}
+
+.calender-container #current-day,
+.calender-container #current-date {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.calender-container #current-month-year {
+  font-size: 1.5rem;
+}
+
+.calender table {
+  width: 50%;
+  margin: 0 auto;
+}
